@@ -1,0 +1,21 @@
+# dependencies & builds
+node_modules
+dist
+dist-ssr
+
+# local config & data
+.env
+server/data/
+*.db
+*.db-wal
+*.db-shm
+
+# logs / editors / OS
+logs
+*.log
+npm-debug.log*
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.local
